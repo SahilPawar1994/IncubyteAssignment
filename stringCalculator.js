@@ -11,6 +11,7 @@ function stringCalculator(str) {
         return num;
     }
 
+    return 
 }
 
 stringCalculator("1,2;3/n4")

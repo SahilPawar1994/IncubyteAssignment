@@ -34,3 +34,10 @@ test("test the stringCalculator if it is returning an number if string is given 
     expect(typeof output).toBe("number");
 })
 
+test("test the stringCalculator if it is returning an number if type of args !== string", () => {
+
+    const output = stringCalculator(true);
+
+    expect(output).toBe(undefined);
+})
+
