@@ -2,7 +2,7 @@
   "name": "incubyteassignment",
   "version": "1.0.0",
   "description": "This is an assignment given by incubyte for the upcoming interview",
-  "main": "index.js",
+  "main": "stringCalculator.js",
   "scripts": {
     "test": "jest"
   },
