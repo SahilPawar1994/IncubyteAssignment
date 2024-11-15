@@ -1,7 +1,7 @@
 
 function stringCalculator(str) {
     if(typeof str === 'string') {
-        const split = str.split(/[,;/n]/)
+        const split = str.split(/[,;:/n]/)
 
         let num = 0;
         split.forEach(s => {
